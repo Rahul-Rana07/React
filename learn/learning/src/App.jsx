@@ -14,6 +14,8 @@ import {EventPropagation} from "./components/EventPropagation"
 import {State} from "./components/hooks/State"
 import "./components/EV.css"
 import { DericedState } from "./components/DericedState";
+import { DerivedState } from "./components/hooks/DerivedState";
+import { LiftStateUp } from "./components/LiftStateUp"
 
 export const App = () =>
 {
@@ -25,7 +27,9 @@ export const App = () =>
         {/* <EventProps /> */}
         {/* <EventPropagation /> */}
         {/* <State /> */}
-        <DericedState />
+        {/* <DericedState /> */}
+        {/* < DerivedState /> */}
+        < LiftStateUp />
       </ section>   
     );
 };
